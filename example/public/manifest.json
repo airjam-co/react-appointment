@@ -1,6 +1,6 @@
 {
-  "short_name": "react-calendar",
-  "name": "react-calendar",
+  "short_name": "react-appointment",
+  "name": "react-appointment",
   "icons": [
     {
       "src": "favicon.ico",

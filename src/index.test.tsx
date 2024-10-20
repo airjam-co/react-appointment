@@ -1,7 +1,7 @@
-import { Calendar } from './Calendar'
+import { Appointment } from './Appointment'
 
-describe('Calendar', () => {
+describe('Appointment', () => {
   it('is truthy', () => {
-    expect(Calendar).toBeTruthy()
+    expect(Appointment).toBeTruthy()
   })
 })
