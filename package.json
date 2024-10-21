@@ -1,6 +1,6 @@
 {
   "name": "@airjam/react-appointment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component for AirJam&#x27;s appointment component",
   "author": "mjlee1983",
   "license": "MIT",
@@ -66,7 +66,7 @@
   ],
   "dependencies": {
     "@airjam/react-calendar": "^1.4.13",
-    "@airjam/types": "^1.1.83",
+    "@airjam/types": "^1.1.84",
     "@popperjs/core": "^2.11.8",
     "@types/bootstrap": "^5.2.9",
     "@types/react-bootstrap": "^0.32.35",
