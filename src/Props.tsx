@@ -1,15 +1,16 @@
-import { AirJamFilter, CalendarEvent, CalendarResource, EventReservation, EventReservationStatus, PaginationStyle, PrivateCalendarResource } from "@airjam/types"
+import { AirJamFilter, AppointmentViewType, CalendarEvent, CalendarResource, CssTheme, EventReservation, EventReservationStatus, PaginationStyle, PrivateCalendarResource } from "@airjam/types"
 import { CalendarViewType as ViewType } from '@airjam/types';
 
 export interface Props {
   id: string;
   resourceId?: string;
   authToken?: string;
+  cssTheme?: CssTheme;
   host?: string;
   location?: string;
   showDate?: Date;
   showEndDate?: Date;
-  viewAs?: ViewType;
+  viewAs?: AppointmentViewType;
   page?: number;
   paginationStyle?: PaginationStyle;
   locale?: string
